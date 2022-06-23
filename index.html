@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -17,24 +18,46 @@
             <div class="titulo elemento1">
                 <h1>Logo mamadisimo</h1>
             </div>
-            <div class="elemento2">Elemento 2</div>
-            <div class="elemento3">Elemento 3</div>
-            <div class="elemento4">Elemento 4</div>
-            <div class="elemento5">Elemento 5</div>
-            <div class="varios elemento6">
-                <div>Elemento 1</div>
-                <div>Elemento 2</div>
-                <div>Elemento 3</div>
-                <div>Elemento 4</div>
-                <div>Elemento 5</div>
-                <div>Elemento 6</div>
+            <div class="elemento2 elem">Elemento 2</div>
+            <div class="elemento3 elem">Elemento 3</div>
+            <div class="elemento4 elem">Elemento 4</div>
+            <div class="elemento5 elem">
+
+                <label for="">Cuenta de Mali:</label>
+                <input type="text" placeholder="Saldo1" id="C1" value="200">
+                <label for="">Cuenta de Gera:</label>
+                <input type="text" placeholder="Saldo2" id="C2" value="800">
+                <form action="">
+                    <h2>Ingrese el monto: </h2>
+                    <input type="text" name="" id="Cant" placeholder="$ Cantidad">
+                </form>
+                
             </div>
-
-            
-
+            <div class="varios elemento6">
+                <div>
+                    <button class="boton" id="bt1" >Consultar</button>
+                </div>
+                <div>
+                    <button class="boton" id="bt2" onclick="formula2()">Depositar</button>
+                </div>
+                <div>
+                    <button class="boton" id="bt3" onclick="formula3()">Retirar</button>
+                </div>
+                <div>
+                    <button class="boton" id="bt4" onclick="formula4()">Transferencia</button>
+                </div>
+                <div>
+                    <button class="boton" id="bt5">Pago Online</button>
+                </div>
+                <div>
+                    <a href="./login.html">
+                        <button class="boton" id="bt6">Volver</button>
+                    </a>
+                </div>
+            </div>
         </div>
-
     </div>
 
+    <script src="./main.js"></script>
 </body>
 </html>
